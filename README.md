@@ -1,4 +1,4 @@
-#CaMau On Shell (MauSh or CaMauTerm)
+# CaMau On Shell (MauSh or CaMauTerm)
 Cool And Simple Python Shell
 
 It doesn't do much.
