@@ -42,7 +42,7 @@ import os
 import subprocess
 
 from NICENTOSH import n, n1, n2, dev, il, legacy, legacylegacy, cmusic, fastboot, happycats, vers, verz
-#from playsound import playsound
+
 from datetime import date
 datey = date.today()
 
@@ -69,9 +69,7 @@ def main():
 		subprocess.run(["python", "nostalgia2.py"])
 	
 	else:
-		# I will fix this. Ok.
-		#if cmusic == 1:
-			#playsound("sussy.mp3")
+
 		while True:
 			# HappyCow :-), Muu, or HappyCat :-), Mau, Is HappyDog better? Ham. You Can Change If You Want.
 			if n2 == 0:
