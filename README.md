@@ -1,5 +1,4 @@
-[RUN.md](https://github.com/Dv5n/camauterm/files/13728111/RUN.md)
-# CaMau On Shell (MauSh or CaMauTerm)
+#CaMau On Shell (MauSh or CaMauTerm)
 Cool And Simple Python Shell
 
 It doesn't do much.
@@ -10,4 +9,4 @@ It doesn't do much.
 - ds - short for 'destroy screen' (clears screen)
 # How to run.
 
-[Click here for the tutorial.](https://github.com/Dv5n/camauterm/files/13728111/RUN.md)
+[Click here for the tutorial.](https://github.com/Dv5n/camauterm/RUN.md)
