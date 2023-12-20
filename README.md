@@ -9,4 +9,4 @@ It doesn't do much.
 - ds - short for 'destroy screen' (clears screen)
 # How to run.
 
-[Click here for the tutorial.](https://github.com/Dv5n/camauterm/RUN.md)
+[Click here for the tutorial.](https://github.com/Dv5n/camauterm/blob/main/RUN.md)
