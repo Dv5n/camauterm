@@ -10,12 +10,12 @@ il = 1
 # Settings:
 # (1 = TRUE(ON), 0 = FALSE(OFF), ONLY)
 ###################################################################
-dev = 1 # DEVELOPER Mode (Only if you are a Developer).
+dev = 0 # DEVELOPER Mode (Only if you are a Developer).
 legacy = 0 # For "DEV_0.0.2" Experience.
 legacylegacy = 0 # For "DEV_0.0.1" Experience.
-cmusic = 1 # For Music.
+cmusic = 0 # For Music.
 fastboot = 0 # Skips loading screens. But never "LOAD_LOOP".
-happycats = 1 # For displaying instead of Happycow, Happycat.
+happycats = 0 # For displaying instead of Happycow, Happycat.
 ###################################################################
 # Versions:
 vers = "PRE_0.1.4"
