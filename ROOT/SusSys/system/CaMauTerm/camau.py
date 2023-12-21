@@ -26,7 +26,7 @@
 # (19-12-2023) -PRE_0.1.4 Improved the warning at the top, added a notice about moding. Improved the "NICENTOSH" file. And from here, I finaly archive the versions, sorry for the older versions. I think I can still archive the old versions using this changelog. And my memory. Hopefuly these older versions can be recovered.
 # (19-12-2023) -PRE_0.1.5 Improved "Help" and this changelog.
 # (20-12-2023) -PRE_0.1.6 Improved everything. Getting ready for github. Finally on GitHub! Yey.
-# (21-12-2023) -0.1.7 Finaly, release! I wanted at 1.0.0 to be release. But, it's OK. Improved More Stuff. Add "nugget-play", Just plays mp3 files, nothing intresting, like all cheap mp3 players (nuggets). Added "reload", Reloads the shell.
+# (21-12-2023) -0.1.7 Finaly, release! I wanted at 1.0.0 to be release. But, it's OK. Improved More Stuff. Add "nugget-play", Just plays mp3 files, nothing interesting, like all cheap mp3 players (nuggets). Added "reload", Reloads the shell.
 #
 #
 #
