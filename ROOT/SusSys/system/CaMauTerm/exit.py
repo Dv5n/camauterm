@@ -1,0 +1,2 @@
+from NICENTOSH import LOAD_LOOP
+LOAD_LOOP()
