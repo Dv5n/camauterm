@@ -1,6 +1,6 @@
  # How To Run
  1. First you must have python 
- Linux (Ubuntu/debian based) example: `sudo apt install python-is-python3`
+ Linux (Ubuntu/Debian based) example: `sudo apt install python-is-python3`
 
  2. You must change 'n' 'n1' 'n2' 'il' in the `NICENTOSH.py` File. To look like this.
 
