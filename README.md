@@ -13,4 +13,4 @@ CaMau = Cat Says Mau
 - reload - Reloads the shell
 # How to run.
 
-[Click here for the tutorial.](https://github.com/Dv5n/camauterm/blob/main/RUN.md)
+[Click here for the tutorial.](https://github.com/Dv5n/camauterm/blob/Release/RUN.md)
