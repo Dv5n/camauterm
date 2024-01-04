@@ -1,5 +1,5 @@
 ################################################################################################################################
-# FREE AND OPEN SOURCE, SHOULD NOT BE SOLD, YOU HAVE BEEN WARNED! ------ MIT LICENSE ------#######################################################
+# FREE AND OPEN SOURCE, SHOULD NOT BE SOLD, YOU HAVE BEEN WARNED! ------ MIT LICENSE ------######################################
 ##################################################################################################################################
 # This can be moded. But if you want to mod this, YOU MUST INCLUDE THE ORIGINAL AUTHOR OF THIS SHELL! EX: (Original author: Dv5N)#
 ##################################################################################################################################
@@ -26,8 +26,8 @@
 # (19-12-2023) -PRE_0.1.4 Improved the warning at the top, added a notice about moding. Improved the "NICENTOSH" file. And from here, I finaly archive the versions, sorry for the older versions. I think I can still archive the old versions using this changelog. And my memory. Hopefuly these older versions can be recovered.
 # (19-12-2023) -PRE_0.1.5 Improved "Help" and this changelog.
 # (20-12-2023) -PRE_0.1.6 Improved everything. Getting ready for github. Finally on GitHub! Yey.
-# (21-12-2023) -0.1.7 Finaly, release! I wanted at 1.0.0 to be release. But, it's OK. Improved More Stuff. Add "nugget-play", Just plays mp3 files, nothing interesting, like all cheap mp3 players (nuggets). Added "reload", Reloads the shell.
-#
+# (21-12-2023) -0.1.7 Finally, release! I wanted at 1.0.0 to be release. But, it's OK. Improved More Stuff. Add "nugget-play", Just plays mp3 files, nothing interesting, like all cheap mp3 players (nuggets). Added "reload", Reloads the shell.
+# (04-01-2024) -0.1.8 Happy New Year. Added "FANCY_LOAD", and the "FANCY" setting. Deleted "DEV Only Stuff" from help. Finally added the "usr" command, for some reason, I forget to put it in help. Added "Debug" setting, but does nothin'.
 #
 #
 #
@@ -41,7 +41,7 @@
 import os
 import subprocess
 
-from NICENTOSH import n, n1, n2, dev, il, legacy, legacylegacy, cmusic, fastboot, happycats, vers, verz
+from NICENTOSH import n, n1, n2, dev, il, legacy, legacylegacy, cmusic, happycats, vers, verz
 
 from playsound import playsound
 
@@ -112,22 +112,13 @@ def main():
 						print ("<<-sadq = Sadly, exits the shell.")
 						print ("<<-help = Shows this.")
 						print ("<<-ds   = Short for 'destroy screen' (clears screen).")
+						print ("<<-usr = Create a new user folder.")
 						print ("<<-nugget-play = Plays MP3 files like any nugget. (MP3 Player)")
 						print ("<<-reload = Reloads the shell")
 
 						print ("Developer Only Commands:")
 						print ("<<-ver = Shows current version.")
 						print ("<<-legacy-ver = Shows The Previous Version.")
-
-						print ("DEV ONLY STUFF:")
-						print ("dev = ", dev)
-						print ("legacy = ", legacy)
-						print ("legacylegacy = ", legacylegacy)
-						print ("cmusic = ", cmusic)
-						print ("fastboot = ", fastboot)
-						print ("vers = ", vers)
-						print ("verz = ", verz)
-
 						print ("Date:Time")
 						print ("|-------------|")
 						print ("Mau: ", datey)
@@ -140,6 +131,7 @@ def main():
 						print ("<<-sadq = Sadly, exits the shell.")
 						print ("<<-help = Shows this.")
 						print ("<<-ds   = Short for 'destroy screen' (clears screen).")
+						print ("<<-usr = Create a new user folder.")
 						print ("<<-nugget-play = Plays MP3 files like any nugget. (MP3 Player)")
 						print ("<<-reload = Reloads the shell")
 						print ("Date:Time")
@@ -165,7 +157,8 @@ def main():
 			# Please Play Only Nice Music.
 			if cmd == "nugget-play":
 				os.chdir("media")
-				print("NOTE: MUST BE WITH .MP3 EXTENSION.")
+				print ("NOTE: MUST BE WITH .MP3 EXTENSION.")
+				print ("EX: Meow.mp3")
 				coolsound = input("Enter MP3 Name: ")
 				playsound(coolsound)
 				os.chdir("..")
