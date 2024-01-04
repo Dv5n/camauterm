@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Bug with the shell.
-title: ''
+title: "[BUG] ..."
 labels: bug
 assignees: ''
 
@@ -17,7 +17,7 @@ Steps to reproduce the behavior:
 3. See error.
 
 **Log**
-What you get after running.Should start with
+What you get after running. Should start with
 (Traceback...)
 
 **Expected behavior**
@@ -27,8 +27,8 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. Linux]
- - Distro/Ver [e.g. Mint/10]
+ - OS: [e.g. Linux/Windows]
+ - Distro/Ver [e.g. Ubuntu/Mint/10]
 
 **Additional context**
 Add any other context about the problem here.

@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this shell.
-title: ''
+title: "[FEATURE_REQUEST] ..."
 labels: enhancement
-assignees: Dv5n
+assignees: ''
 
 ---
 
