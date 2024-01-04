@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Bug with the shell.
 title: ''
 labels: bug
 assignees: ''
@@ -15,6 +15,10 @@ Steps to reproduce the behavior:
 1. Change Value ...
 2. Run the shell.
 3. See error.
+
+**Log**
+What you get after running.Should start with
+(Traceback...)
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
