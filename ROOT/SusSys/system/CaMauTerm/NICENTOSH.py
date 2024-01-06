@@ -2,10 +2,10 @@ import os
 import time
 ###############
 # Legal Stuff:
-n = 1
-n1 = 0
-n2 = 0
-il = 0
+n = 0
+n1 = 1
+n2 = 1
+il = 1
 ###############
 # Settings:
 # (1 = TRUE(ON), 0 = FALSE(OFF), ONLY)
@@ -14,9 +14,9 @@ dev = 0 # DEVELOPER Mode (Only if you are a Developer).
 legacy = 0 # For "DEV_0.0.2" Experience.
 legacylegacy = 0 # For "DEV_0.0.1" Experience.
 cmusic = 0 # For A Nice Duck Sound At The Startup.
-fastboot = 1 # Skips loading screens. But never "LOAD_LOOP".
+fastboot = 0 # Skips loading screens. But never "LOAD_LOOP".
 happycats = 0 # For displaying instead of Happycow, Happycat.
-FANCY = 0 # Makes All Loading Stuff, More Fancy.
+FANCY = 1 # Makes All Loading Stuff, More Fancy.
 debug = 0 # Enables some debug stuff. (Does nothing now. Sorry.)
 ###################################################################
 # Versions:

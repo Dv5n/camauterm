@@ -1,9 +1,12 @@
 import subprocess
-from NICENTOSH import dev, LOAD_NORMAL, legacy, legacylegacy, LEGACYTXT, fastboot
+from NICENTOSH import dev, LOAD_NORMAL, legacy, legacylegacy, LEGACYTXT, fastboot, FANCY, LOAD_FANCY
 import os
 
 if fastboot == 0:
-	LOAD_NORMAL()
+	if FANCY == 1:
+		LOAD_FANCY()
+	else:
+		LOAD_NORMAL()
 
 os.system("clear")
 
