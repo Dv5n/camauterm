@@ -19,7 +19,9 @@ Steps to reproduce the behavior:
 **Log**
 What you get after running. Should start with
 (Traceback...)
-
+```
+Paste log here.
+```
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
