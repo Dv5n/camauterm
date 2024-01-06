@@ -10,13 +10,13 @@ il = 0
 # Settings:
 # (1 = TRUE(ON), 0 = FALSE(OFF), ONLY)
 ###################################################################
-dev = 1 # DEVELOPER Mode (Only if you are a Developer).
+dev = 0 # DEVELOPER Mode (Only if you are a Developer).
 legacy = 0 # For "DEV_0.0.2" Experience.
 legacylegacy = 0 # For "DEV_0.0.1" Experience.
-cmusic = 1 # For A Nice Duck Sound At The Startup.
-fastboot = 0 # Skips loading screens. But never "LOAD_LOOP".
-happycats = 1 # For displaying instead of Happycow, Happycat.
-FANCY = 1 # Makes All Loading Stuff, More Fancy.
+cmusic = 0 # For A Nice Duck Sound At The Startup.
+fastboot = 1 # Skips loading screens. But never "LOAD_LOOP".
+happycats = 0 # For displaying instead of Happycow, Happycat.
+FANCY = 0 # Makes All Loading Stuff, More Fancy.
 debug = 0 # Enables some debug stuff. (Does nothing now. Sorry.)
 ###################################################################
 # Versions:
