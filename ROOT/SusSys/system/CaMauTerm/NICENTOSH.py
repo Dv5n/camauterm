@@ -2,7 +2,7 @@
 # Settings:
 # (1 = TRUE(ON), 0 = FALSE(OFF), ONLY)
 ###################################################################
-dev = 1 # DEVELOPER Mode (Only if you are a Developer).
+dev = 0 # DEVELOPER Mode (Only if you are a Developer).
 ###################################################################
 # Versions:
 vers = "DEV_0.0.1_MINI"
